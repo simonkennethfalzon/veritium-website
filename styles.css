@@ -196,6 +196,11 @@ em { font-style: normal; color: var(--signal); }
 .form input:focus, .form textarea:focus { border-color: var(--signal); }
 .form .btn--ink { background: var(--signal); color: var(--signal-ink); border-color: var(--signal); justify-content: center; margin-top: 8px; }
 
+.hp { position: absolute; left: -9999px; }
+.form__status { font: 500 14px var(--mono); min-height: 1em; }
+.form__status.ok { color: var(--signal); }
+.form__status.err { color: var(--red); }
+
 /* Footer */
 .footer { padding: 32px 0; font-size: 13px; color: var(--mute); }
 .footer__inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
