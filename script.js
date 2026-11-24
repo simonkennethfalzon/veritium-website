@@ -32,7 +32,7 @@
       if (!res.ok) throw new Error();
       form.reset();
       status.className = "form__status ok";
-      status.textContent = "Thanks. Simon will be in touch within one business day.";
+      status.textContent = "Thanks. Simon will be in touch shortly.";
     } catch {
       status.className = "form__status err";
       status.textContent = "Something went wrong. Please email simon@veritium.com.au directly.";
